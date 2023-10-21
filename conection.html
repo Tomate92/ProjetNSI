@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Première question</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body class="text-bg-dark p-3">
+
+    <div class="container">
+
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark border-bottom sticky-top ">
+
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="conection.html">Menu</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                
+
+                <a class="nav-link active" aria-disabled="false" href="infos.html">Informations</a>
+
+              </li>
+
+              <li>
+
+                <a class="nav-link active d-flex" href="conection.html" style="position: absolute; right: 0; display: flex; gap: 20px; flex-direction: row;">Créer un compte</a>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <form class="row g-3 p-3 needs-validation" novalidate>
+
+        <div class="col-md-4">
+
+          <label for="validationCustom01" class="form-label">First name</label>
+
+          <input autocomplete="none" type="text" class="form-control" id="validationCustom01" placeholder="First Name" required>
+
+          <div class="invalid-feedback">
+
+            Please put your First Name.
+
+          </div>
+
+          <div class="valid-feedback">
+
+            OK!
+
+          </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <label for="validationCustom02" class="form-label">Last name</label>
+
+          <input autocomplete="none" type="text" class="form-control" id="validationCustom02" placeholder="Last Name" required>
+
+          <div class="invalid-feedback">
+
+            Please put your Last Name.
+
+          </div>
+
+          <div class="valid-feedback">
+
+            OK!
+
+          </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <label for="validationCustomUsername" class="form-label">Username</label>
+
+          <div class="input-group has-validation">
+
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+
+            <input autocomplete="none" type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+
+            <div class="invalid-feedback">
+
+              Please choose a username.
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+
+          <label for="validationCustom03" class="form-label">City</label>
+
+          <input autocomplete="none" type="text" class="form-control" id="validationCustom03" required>
+
+          <div class="invalid-feedback">
+
+            Please provide a valid city.
+
+          </div>
+
+        </div>
+
+        <div class="col-12">
+
+          <div class="form-check">
+
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+
+            <label class="form-check-label" for="invalidCheck">
+
+              Agree to <a href="termsandconditions.html"> terms and conditions </a>
+
+            </label>
+
+            <div class="invalid-feedback">
+
+              You must agree before submitting.
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-12">
+
+          <button class="btn btn-primary" type="submit">Submit form</button>
+
+        </div>
+
+      </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
