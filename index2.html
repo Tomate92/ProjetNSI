@@ -1,59 +1,48 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon formulaire</title>
+    <title>My site</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body class=" text-bg-dark p-3">
-    <div class="container text-center">
-        <nav class="navbar navbar-dark navbar-expand-lg bg-dark border-bottom sticky-top ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Menu</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-disabled="false" href="infos.html">Informations</a>
-                  </li>
-                  <li>
-                    <a class="nav-link active d-flex" href="conection.html" style="position: absolute; right: 0; display: flex; gap: 20px; flex-direction: row;">Créer un compte</a>
-                  </li>
+<body style="background-color: #212121;">
+    <nav class="navbar navbar-expand-lg " style="background-color: #0D7377;">
+        <div class="container-fluid" style="margin-left: 45px; margin-right: 45px; margin-top: 5px; color: #323232;">
+           
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pong.html">Tetris</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Games
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </div>
-            </div>
-          </nav>
-        <div class="row align-items-center ">
-          <div class="col">
-          </div>
-          <div class="col">
-          </div>
-          <div class="col">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </div>
-        <div>
-            <div class="row align-items-center gy-5">
-                <div class="col">
-                </div>
-                <div class="col-10">
-                    <h1 class="p-3">
-                        Bienvenue sur mon formulaire
-                    </h1>
-                    <h3 class="p-2">
-                        Vous allez devoir répondre à une série de questions
-                    </h3>
-                    <a href="conection.html" class="btn btn-outline-info btn-lg ">C'est parti !!</a>
-                </div>
-                <div class="col">
-                </div>
-            </div>
-        </div>
-    </div>
+      </nav>
 </body>
 </html>
